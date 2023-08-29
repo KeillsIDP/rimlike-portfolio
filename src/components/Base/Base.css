@@ -1,0 +1,29 @@
+.base-block{
+    min-height: 80vh;
+    background-color: rgb(49, 49, 49);
+    min-width: 70vw;
+    position:absolute;
+    top: 10vh;
+    left: 14.5vw;
+    border: 5px solid rgb(197, 196, 196);
+}
+
+.base-button{
+    border: 5px solid rgb(197, 196, 196);
+    height: 3vh;
+    width: 5vw;
+    padding: 2vh 1vw 0;
+    background-color: rgb(49, 49, 49);
+    text-align: center;
+    color: white;
+    font-size: 0.7vw;
+    border-top-right-radius: 1vw;
+    border-top-left-radius: 1vw;
+}
+
+.base-buttons{
+    display: flex;
+    position: relative;
+    top: -6vh;
+    left: -0.3vw;
+}
