@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rimlike-portfolio/static/css/main.f5304c91.css",
+    "main.js": "/rimlike-portfolio/static/js/main.e17b1992.js",
+    "static/js/787.934df422.chunk.js": "/rimlike-portfolio/static/js/787.934df422.chunk.js",
+    "static/media/RimWorldFont.ttf": "/rimlike-portfolio/static/media/RimWorldFont.a1f794e4473f00fd9562.ttf",
+    "static/media/logo.svg": "/rimlike-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/rimlike-portfolio/index.html",
+    "main.f5304c91.css.map": "/rimlike-portfolio/static/css/main.f5304c91.css.map",
+    "main.e17b1992.js.map": "/rimlike-portfolio/static/js/main.e17b1992.js.map",
+    "787.934df422.chunk.js.map": "/rimlike-portfolio/static/js/787.934df422.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5304c91.css",
+    "static/js/main.e17b1992.js"
+  ]
+}
