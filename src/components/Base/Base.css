@@ -19,6 +19,7 @@
     font-size: 0.7vw;
     border-top-right-radius: 1vw;
     border-top-left-radius: 1vw;
+    cursor: pointer;
 }
 
 .base-buttons{
@@ -26,4 +27,14 @@
     position: relative;
     top: -6vh;
     left: -0.3vw;
+    width: 32vw;
+}
+
+.base-button-noborder{
+    min-height: 0.5vh;
+    min-width: 7vw;
+    position: relative;
+    top: 1.5vh;
+    left: -1vw;
+    background-color: rgb(49, 49, 49);
 }

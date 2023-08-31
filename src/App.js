@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import {Base} from './components/Base/Base.js'
 import Cover from './components/Cover/Cover.js'

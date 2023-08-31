@@ -1,0 +1,69 @@
+.character-window{
+    padding: 0vh 2vw;
+    color: white;
+    font-size: 1vw;
+}
+
+/* top section */
+
+.character-name{
+    display: flex;
+    gap: 0.8vw;
+}
+
+.character-info{
+    display: flex;
+}
+
+.character-citizenship{
+    font-size: 0.8vw !important;
+    margin-top: 1vh;
+}
+
+.character-info img{
+    width: 2.8vw;
+    position: relative;
+    left: 5vw;
+    top: -4.5vh;
+}
+
+/* traits section */
+
+.character-traits h1{
+    font-size: 1.5vw;
+}
+
+.character-traits h2{
+    font-size: 1vw;
+    max-width: 10vw;
+}
+
+.character-traits{
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+}
+
+.flex-block{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1vw;
+}
+
+.character-traits-flex{
+    display: flex;
+    flex-direction: column;
+    gap:2vh;
+}
+
+/* trait info */
+
+.trait-info{
+    color: rgb(223, 214, 214);
+    background-color: rgb(41, 40, 40);
+    padding: 1vh 1vw;
+    max-width: 15vw;
+    font-size: 0.8vw;
+    font-weight: 400;
+    position: fixed;
+}
