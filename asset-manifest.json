@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/rimlike-portfolio/static/css/main.195d7182.css",
-    "main.js": "/rimlike-portfolio/static/js/main.eca94dbf.js",
+    "main.css": "/rimlike-portfolio/static/css/main.40c99c82.css",
+    "main.js": "/rimlike-portfolio/static/js/main.37814cfb.js",
     "static/js/787.934df422.chunk.js": "/rimlike-portfolio/static/js/787.934df422.chunk.js",
+    "static/media/react.png": "/rimlike-portfolio/static/media/react.084bec74cd8e751c0a8c.png",
+    "static/media/java.png": "/rimlike-portfolio/static/media/java.d2e5e2a75fd4b68d884e.png",
+    "static/media/csharp.png": "/rimlike-portfolio/static/media/csharp.3bc5fce62fbd4c82bc56.png",
+    "static/media/passion.png": "/rimlike-portfolio/static/media/passion.888e7de6d69ec167d376.png",
+    "static/media/unity.png": "/rimlike-portfolio/static/media/unity.dfa6e8cc567d539c3dcc.png",
+    "static/media/html.png": "/rimlike-portfolio/static/media/html.9f4f8019f6536170d73d.png",
+    "static/media/css.png": "/rimlike-portfolio/static/media/css.8b96c6c44f4530645259.png",
     "static/media/RimWorldFont.ttf": "/rimlike-portfolio/static/media/RimWorldFont.a1f794e4473f00fd9562.ttf",
     "static/media/Keills.png": "/rimlike-portfolio/static/media/Keills.87e612619fd4e6d85f8b.png",
     "index.html": "/rimlike-portfolio/index.html",
-    "main.195d7182.css.map": "/rimlike-portfolio/static/css/main.195d7182.css.map",
-    "main.eca94dbf.js.map": "/rimlike-portfolio/static/js/main.eca94dbf.js.map",
+    "main.40c99c82.css.map": "/rimlike-portfolio/static/css/main.40c99c82.css.map",
+    "main.37814cfb.js.map": "/rimlike-portfolio/static/js/main.37814cfb.js.map",
     "787.934df422.chunk.js.map": "/rimlike-portfolio/static/js/787.934df422.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.195d7182.css",
-    "static/js/main.eca94dbf.js"
+    "static/css/main.40c99c82.css",
+    "static/js/main.37814cfb.js"
   ]
 }
