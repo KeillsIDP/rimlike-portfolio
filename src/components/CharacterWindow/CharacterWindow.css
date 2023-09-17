@@ -2,6 +2,9 @@
     padding: 0vh 2vw;
     color: white;
     font-size: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
 }
 
 /* top section */
@@ -66,4 +69,46 @@
     font-size: 0.8vw;
     font-weight: 400;
     position: fixed;
+}
+
+/* skills section */
+
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    padding: 2vh 2vw;
+    gap: 2vh;
+}
+
+.character-skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.character-skill img{
+    width: 3vw;
+}
+
+.skill-passion{
+    display: flex;
+}
+
+.skill-passion img{
+    margin: 0 -1vw 0 0;
+    width: 1.5vw;
+    height: 3vh;
+}
+
+.skill-progress-bar{
+    width: 18vw;
+    height: 2vh;
+    padding: 1vh 0;
+    text-align: center;
+    background-color: rgb(37, 36, 36);
+}
+
+.skill-progress-bar{
+    color: rgb(105, 102, 102);
 }

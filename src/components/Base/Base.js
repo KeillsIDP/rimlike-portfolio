@@ -1,8 +1,10 @@
 import './Base.css'
 import {useState} from 'react'
 import {CharacterWindow} from '../CharacterWindow/CharacterWindow'
+import {ProjectsWindow} from '../ProjectsWindow/ProjectsWindow'
+
 export const Base = ()=>{
-    const [pageState,setPageState] = useState('')
+    const [pageState,setPageState] = useState("global")
 
     function pageChange (state) {
         setPageState(state);
@@ -24,8 +26,11 @@ export const Base = ()=>{
                     <div className={pageState == "contacts"?"base-button-noborder":"inactive"}/>
                 </div>
             </div>
-            <div>
+            <div className={pageState == "global"?"":"inactive"}>
                 <CharacterWindow/>
+            </div>
+            <div className={pageState == "projects"?"":"inactive"}>
+                <ProjectsWindow/>
             </div>
         </div>
     )

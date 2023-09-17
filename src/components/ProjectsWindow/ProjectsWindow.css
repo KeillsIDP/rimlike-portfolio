@@ -1,0 +1,47 @@
+.projects-window{
+    padding: 0vh 1vw;
+}
+
+/* project visual */
+
+.project-visual{
+    margin-top: 1vh;
+    border: 5px solid rgb(197, 196, 196);
+    padding: 1vh 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    width: 30vw;
+    background-color: rgb(63, 64, 65);
+}
+
+.project-up-section{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.project-text h1{
+    font-size: 1.2vw;
+}
+
+.project-text p{
+    margin-top: 1vh;
+    font-size: 0.6vw;
+    color: white;
+}
+
+.project-down-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-down-section img{
+    width: 1.5vw;
+    margin-right: 1vw;
+}
+
+.project-status{
+    color: white;
+}
