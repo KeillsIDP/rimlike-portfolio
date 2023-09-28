@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rimlike-portfolio/static/css/main.392e78af.css",
-    "main.js": "/rimlike-portfolio/static/js/main.959b6ddb.js",
+    "main.js": "/rimlike-portfolio/static/js/main.fcee83d4.js",
     "static/js/787.934df422.chunk.js": "/rimlike-portfolio/static/js/787.934df422.chunk.js",
     "static/media/react.png": "/rimlike-portfolio/static/media/react.084bec74cd8e751c0a8c.png",
     "static/media/java.png": "/rimlike-portfolio/static/media/java.d2e5e2a75fd4b68d884e.png",
@@ -17,11 +17,11 @@
     "static/media/Keills.png": "/rimlike-portfolio/static/media/Keills.87e612619fd4e6d85f8b.png",
     "index.html": "/rimlike-portfolio/index.html",
     "main.392e78af.css.map": "/rimlike-portfolio/static/css/main.392e78af.css.map",
-    "main.959b6ddb.js.map": "/rimlike-portfolio/static/js/main.959b6ddb.js.map",
+    "main.fcee83d4.js.map": "/rimlike-portfolio/static/js/main.fcee83d4.js.map",
     "787.934df422.chunk.js.map": "/rimlike-portfolio/static/js/787.934df422.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.392e78af.css",
-    "static/js/main.959b6ddb.js"
+    "static/js/main.fcee83d4.js"
   ]
 }
