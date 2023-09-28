@@ -33,7 +33,7 @@ export const TraitsSection = ()=>{
                 </div>
                 <div className='flex-block'>
                     <h2>Project:</h2>
-                    <p><a href={"https://github.com/KeillsIDP/rimlike-portfolio"}>RimLike Portfolio</a></p>
+                    <p><a href={"https://github.com/KeillsIDP/restapi-trademarket-front"}>RESTapi Trademarket</a></p>
                 </div>
             </div>
             <div className="character-traits-flex">

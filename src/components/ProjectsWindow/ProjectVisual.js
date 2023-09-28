@@ -1,10 +1,20 @@
-export const ProjectVisual = ({images,title,status,description,link}) => {
+export const ProjectVisual = ({images,title,status,description,link,tags,searchTag}) => {
     const imagesVisual = Array(images.length)
     for(let i = 0;i<imagesVisual.length;i++)
         imagesVisual[i] = <img src={images[i]}/>
+    
+    var isVisible = false;
+    if(searchTag.length>0)
+    {
+        for(let i = 0;i<tags.length;i++)
+            if(tags[i]==searchTag)
+                isVisible = true;
+    }
+    else
+        isVisible = true;
 
     return(
-        <div className="project-visual">
+        <div className={isVisible?"project-visual":"inactive"}>
             <div className="project-up-section">
                 <div className="project-text">
                     <h1><a href={link}>{title}</a></h1>

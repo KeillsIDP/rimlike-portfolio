@@ -1,5 +1,7 @@
 .projects-window{
     padding: 0vh 1vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* project visual */
@@ -44,4 +46,34 @@
 
 .project-status{
     color: white;
+}
+
+/* filters */
+.filters{
+    padding: 1vh 2vw;
+}
+
+.filters h1{
+    font-size: 2.5vw;
+    text-align: center;
+    color:white;
+    margin-bottom: 1vh;
+}
+
+.filter{
+    display: flex;
+    width: 15vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter h1{
+    color: white;
+    font-size: 2vw;
+}
+
+.filter input{
+    width: 1.5vw;
+    height: 1.5vw;
+    align-self: center;
 }

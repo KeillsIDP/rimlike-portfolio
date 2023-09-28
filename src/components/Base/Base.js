@@ -2,6 +2,7 @@ import './Base.css'
 import {useState} from 'react'
 import {CharacterWindow} from '../CharacterWindow/CharacterWindow'
 import {ProjectsWindow} from '../ProjectsWindow/ProjectsWindow'
+import {ContactsWindow} from '../ContactsWindow/ContactsWindow'
 
 export const Base = ()=>{
     const [pageState,setPageState] = useState("global")
@@ -31,6 +32,9 @@ export const Base = ()=>{
             </div>
             <div className={pageState == "projects"?"":"inactive"}>
                 <ProjectsWindow/>
+            </div>
+            <div className={pageState == "contacts"?"":"inactive"}>
+                <ContactsWindow/>
             </div>
         </div>
     )
